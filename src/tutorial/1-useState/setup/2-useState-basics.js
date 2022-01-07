@@ -9,6 +9,7 @@ const UseStateBasics = () => {
 
   return (
     <div>
+      <h2>useState basics</h2>
       <h2>{state ? 'Random Title' : 'Hello World'}</h2>
       <button type="button" className="btn" onClick={clickHandler}>
         Change Title
