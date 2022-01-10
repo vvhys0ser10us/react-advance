@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './App'
+import UseStateExample from './UseStateExample'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <UseStateExample />
   </React.StrictMode>,
   document.getElementById('root')
 )

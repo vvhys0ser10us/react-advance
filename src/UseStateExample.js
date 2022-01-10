@@ -5,7 +5,7 @@ import Setup3 from './tutorial/1-useState/setup/3-useState-array'
 import Setup4 from './tutorial/1-useState/setup/4-useState-object'
 import Setup5 from './tutorial/1-useState/setup/5-useState-counter'
 
-function App() {
+function UseStateExample() {
   return (
     <div className="container">
       <Setup1></Setup1>
@@ -32,4 +32,4 @@ function App() {
   )
 }
 
-export default App
+export default UseStateExample
