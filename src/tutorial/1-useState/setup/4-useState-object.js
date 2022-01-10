@@ -4,7 +4,9 @@ const UseStateObject = () => {
   const [person, setPerson] = useState({ name: 'Ken', age: 26, job: 'No job' })
 
   const findJob = () => {
-    setPerson({ ...person, job: 'Developer' })
+    setPerson((person) => {
+      return { ...person, job: 'Developer' }
+    })
   }
 
   return (

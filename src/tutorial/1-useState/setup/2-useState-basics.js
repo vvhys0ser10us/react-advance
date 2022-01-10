@@ -4,7 +4,9 @@ const UseStateBasics = () => {
   const [state, setTitle] = useState(true)
 
   const clickHandler = () => {
-    setTitle(!state)
+    setTitle((state) => {
+      return !state
+    })
   }
 
   return (
